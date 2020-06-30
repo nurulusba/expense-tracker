@@ -14,6 +14,7 @@ export const AddTransaction = () => {
 
   const onAmountChange = event => {
      setAmount(parseInt(event.target.value));
+     console.log(event);
   }
 
  
